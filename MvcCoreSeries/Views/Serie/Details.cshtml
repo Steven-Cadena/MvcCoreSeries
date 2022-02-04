@@ -1,0 +1,16 @@
+﻿@model MvcCoreSeries.Models.Serie
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="@Model.Imagen" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Nombre</h5>
+        <p class="card-text">IMDB: @Model.Puntuacion</p>
+        <a class="btn btn-success">Personajes</a>
+    </div>
+</div>
